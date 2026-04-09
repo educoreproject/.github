@@ -1,0 +1,2 @@
+# .github
+EDUcore one pager
