@@ -1,21 +1,136 @@
 # .github
-EDUcore one pager
-Harmonizing Interoperability Specs for AI
-Why EDUcore?
-AI is reshaping how education and workforce systems operate, however most of this ecosystem is not prepared to use AI safely or consistently. Education runs on data, yet interoperability standards and implementation guides are fragmented across organizations, sectors, and technical stacks. Institutions that need to exchange learner, program, credential, and outcomes data must navigate multiple specifications that do not map cleanly to each other. The result is duplicated integration work, inconsistent meaning, and limited reuse, creating challenges for innovation, implementation and scalability.
-EDUcore’s mission is to establish an AI-ready “source of truth” for interoperability that is built by aligning existing standards rather than replacing them. Through active participation from multiple standards bodies, resources and funding from the Gates Foundation, Strada, the US Chamber Foundation, and the combined effort of the signatories to the Data Standards United initiative EDUcore will provide a shared semantic backbone and a practical mapping layer so organizations can continue using current systems while achieving consistent, governed interoperability and applicability - allowing for innovation to scale.
-We are not creating “one new standard to rule them all.” We are building shared infrastructure that makes the standards already in use easier to understand, implement, and connect across the PK20W+ ecosystem (lifelong learning ranging from early childhood through workforce).
-What are we working toward?
-A common semantic backbone. Establish a baseline linked-data model (RDF/JSON-LD-based) grounded in the CEDS (Common Education Data Standards) ontology and informed by credential transparency work (e.g., CTDL), including core entities (Person, Organization, Credential, Learning Event, Assessment, Employment Event) and their relationships. Where gaps exist, we will propose governed extensions through the relevant communities.
+# EDUcore
 
+## Harmonizing Interoperability Specs for AI
 
-Use-case-driven mappings. Define and prioritize cross-sector use cases, then map the highest-value standards, profiles, and data elements to the baseline model. This makes crosswalks explicit, versioned, and auditable so AI tools can assist implementation without inventing meaning. 
+---
 
+## Why EDUcore?
 
-A reference library that is usable in practice. Publish a working reference library that is searchable and structured for implementers, including: canonical definitions, mappings, implementation notes, openness/availability status, and governance metadata. This lowers the cost of adoption for under-resourced districts, colleges, workforce boards, and employers.
+AI is reshaping how education and workforce systems operate. However, most of this ecosystem is not prepared to use AI safely or consistently.
 
+Education runs on data—but interoperability standards and implementation guides are fragmented across organizations, sectors, and technical stacks. Institutions that need to exchange learner, program, credential, and outcomes data must navigate multiple specifications that do not map cleanly to each other.
 
-Future-proofed, safe-by-design enablement. Engage technical leaders, including major platform providers, to ensure the architecture supports modern AI workflows while embedding guardrails for privacy, provenance, auditability, and human oversight in high-stakes contexts. EDUcore will pursue targeted universalism: universal interoperability outcomes with targeted adoption pathways for organizations with different constraints.
+**The result:**
+- Duplicated integration work  
+- Inconsistent meaning  
+- Limited reuse  
 
+All of which create barriers to innovation, implementation, and scalability.
 
-This work establishes the planning and design foundation for subsequent build phases. With support from forward-looking philanthropies, including the Gates Foundation, EDUcore will enable safer, lower-cost interoperability and accelerate the development of tools that support learners and workers.
+---
+
+## Mission
+
+EDUcore’s mission is to establish an AI-ready “source of truth” for interoperability—built by aligning existing standards rather than replacing them.
+
+Through:
+- Active participation from standards bodies  
+- Support from organizations like the Gates Foundation, Strada, and the U.S. Chamber Foundation  
+- Collaboration across the Data Standards United initiative  
+
+EDUcore will provide:
+- A shared semantic backbone  
+- A practical mapping layer  
+
+This enables organizations to:
+- Continue using existing systems  
+- Achieve consistent, governed interoperability  
+- Scale innovation more effectively  
+
+**We are not creating “one new standard to rule them all.”**  
+We are building shared infrastructure that makes existing standards easier to understand, implement, and connect across the PK20W+ ecosystem (early childhood through workforce).
+
+---
+
+## What Are We Working Toward?
+
+### 1. A Common Semantic Backbone
+
+Establish a baseline linked-data model (RDF / JSON-LD) grounded in:
+- CEDS (Common Education Data Standards)  
+- Credential transparency frameworks (e.g., CTDL)  
+
+Includes core entities such as:
+- Person  
+- Organization  
+- Credential  
+- Learning Event  
+- Assessment  
+- Employment Event  
+
+Where gaps exist, we will propose governed extensions through relevant communities.
+
+---
+
+### 2. Use-Case-Driven Mappings
+
+Define and prioritize cross-sector use cases, then map:
+- Standards  
+- Profiles  
+- Data elements  
+
+to the baseline model.
+
+**Outcome:**
+- Explicit, versioned, and auditable crosswalks  
+- AI-assisted implementation without inventing meaning  
+
+---
+
+### 3. A Practical Reference Library
+
+Publish a working reference library that is:
+
+- Searchable  
+- Structured for implementers  
+- AI-consumable  
+
+Includes:
+- Canonical definitions  
+- Mappings  
+- Implementation notes  
+- Openness / availability status  
+- Governance metadata  
+
+This lowers the cost of adoption for:
+- School districts  
+- Colleges  
+- Workforce boards  
+- Employers  
+
+---
+
+### 4. Future-Proofed, Safe-by-Design Enablement
+
+Engage technical leaders, including major platform providers, to ensure:
+
+- AI-ready architecture  
+- Privacy protections  
+- Provenance tracking  
+- Auditability  
+- Human oversight in high-stakes contexts  
+
+EDUcore follows a targeted universalism approach:
+
+> Universal interoperability outcomes with targeted adoption pathways for organizations with different constraints.
+
+---
+
+## What This Enables
+
+This work establishes the planning and design foundation for subsequent build phases.
+
+With support from forward-looking partners like the Gates Foundation, EDUcore will:
+
+- Lower the cost of interoperability  
+- Improve safety and consistency in AI use  
+- Accelerate the development of tools that support learners and workers  
+
+---
+
+## Get Involved
+
+We’re building this in the open—across standards bodies, institutions, and implementers.
+
+If you're working on interoperability, AI, or education/workforce data systems, we want to collaborate.
